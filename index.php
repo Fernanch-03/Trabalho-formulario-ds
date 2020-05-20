@@ -106,13 +106,15 @@ if(isset($_POST['btn'])){
 		<meta charset="UTF-8">
 		<title>Fer</title>
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<script src="boostrap/js/bootstrap.js" lang="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="boostrap/js/bootstrap.js" lang="ext/javascript"></script>
 	</head>
 	<body>
+		<h1>Registro das Informações</h1>
 		<div class="container">	
 			<div class="row">
 				<div class="col-12">
-					<form action="listar.php" method="POST">
+					<form action="index.php" method="POST">
 						<label class="form-label" for="inp-name">Digite seu nome: </label>
 						<input type="text" name="nome" required>
 						<br>
@@ -140,7 +142,7 @@ if(isset($_POST['btn'])){
 						<label class="form-label" for="inp-exp">Coloque suas experiências profissionais</label>
 						<input type="text" name="exp" required>
 						<br>
-						<button name="btn" class="btn btn-block btn-success" type="submit">Submit</button>
+						<button name="btn" class="btn btn-dark btn-lg" id="btn" type="submit">Submit</button>
 					</form>
 				</div>
 			</div>

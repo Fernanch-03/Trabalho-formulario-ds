@@ -37,7 +37,7 @@ include('conexao.php');
       <td>'.$pessoa['faculdades'].'</td>
       <td>'.$pessoa['experiencias'].'</td>
       <td>
-      	<a href="excluir.php?id ='.$pessoa['id'].'">Excluir</a>
+      	<a href="excluir.php?id='.$pessoa['id'].'">Excluir</a>
       </td>
      </tr> ';
 
